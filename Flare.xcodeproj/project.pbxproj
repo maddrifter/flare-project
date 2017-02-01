@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08033D5C1DB93B660092E45E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08033D5B1DB93B660092E45E /* GoogleService-Info.plist */; };
+		08EFE9CF341AC9A8593EF0B9 /* Pods_Flare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C077AF3B95864CEF341C981 /* Pods_Flare.framework */; };
+		246276DA1D85DB0C00D434F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246276D91D85DB0C00D434F5 /* ProfileViewController.swift */; };
+		24B68D491D8184AB004EE49A /* FlareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B68D481D8184AB004EE49A /* FlareViewController.swift */; };
+		378C31308AD144F1C77A72A4 /* Pods_FlareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE71BA334882FB87A15CE562 /* Pods_FlareTests.framework */; };
+		531D01CD1D89BF7600AA7D1C /* CameraViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D01CC1D89BF7600AA7D1C /* CameraViewControllerUITests.swift */; };
+		5354CF281D8467BE00D57347 /* FlareDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5354CF271D8467BE00D57347 /* FlareDetailViewController.swift */; };
+		537EB5E71D870B3C00F3E4F6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537EB5E61D870B3C00F3E4F6 /* CameraViewController.swift */; };
+		537EB5E91D8710C500F3E4F6 /* FlarePhysicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537EB5E81D8710C500F3E4F6 /* FlarePhysicsViewController.swift */; };
+		537EB5ED1D87240C00F3E4F6 /* FlashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537EB5EC1D87240C00F3E4F6 /* FlashViewController.swift */; };
+		53C8D1011D80760B00E57400 /* flare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8D1001D80760B00E57400 /* flare.swift */; };
+		53C8D1031D80781100E57400 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8D1021D80781100E57400 /* AnnotationViewController.swift */; };
+		6A7ED8861D7F2E94005FF0A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7ED8851D7F2E94005FF0A8 /* AppDelegate.swift */; };
+		6A7ED8881D7F2E94005FF0A8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7ED8871D7F2E94005FF0A8 /* MapViewController.swift */; };
+		6A7ED88D1D7F2E94005FF0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7ED88C1D7F2E94005FF0A8 /* Assets.xcassets */; };
+		6A7ED8901D7F2E94005FF0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7ED88E1D7F2E94005FF0A8 /* LaunchScreen.storyboard */; };
+		6A7ED89B1D7F2E94005FF0A8 /* FlareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7ED89A1D7F2E94005FF0A8 /* FlareTests.swift */; };
+		6A7ED8A61D7F2E94005FF0A8 /* ProfileViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7ED8A51D7F2E94005FF0A8 /* ProfileViewControllerUITests.swift */; };
+		746DDF451D844570004A27A2 /* SendFlareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746DDF441D844570004A27A2 /* SendFlareViewController.swift */; };
+		74F405671D86EA5A00F0A6DC /* MapDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F405661D86EA5A00F0A6DC /* MapDisplayController.swift */; };
+		74F405691D86ECEB00F0A6DC /* FlareDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F405681D86ECEB00F0A6DC /* FlareDisplayController.swift */; };
+		74F8AA591D8955E300AD655B /* CityMapperAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8AA581D8955E300AD655B /* CityMapperAPI.swift */; };
+		826E4E991D81CA6F00CA4493 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E4E981D81CA6F00CA4493 /* RootViewController.swift */; };
+		8273F3041D899D9100E62350 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273F3031D899D9100E62350 /* LogOutViewController.swift */; };
+		8273F3061D899F1200E62350 /* facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273F3051D899F1200E62350 /* facebook.swift */; };
+		82FF4C911D85C26E00B44AF7 /* UITextFieldLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FF4C901D85C26E00B44AF7 /* UITextFieldLimit.m */; };
+		90194C351DFAE83800D22901 /* boostOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90194C341DFAE83800D22901 /* boostOverlay.swift */; };
+		904FC84D1DFADF0700F6426F /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC84C1DFADF0700F6426F /* FriendsTableViewController.swift */; };
+		904FC84F1DFADF1200F6426F /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC84E1DFADF1200F6426F /* FriendsTableViewCell.swift */; };
+		904FC8511DFAE00000F6426F /* BoostFlareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC8501DFAE00000F6426F /* BoostFlareViewController.swift */; };
+		904FC8531DFAE04F00F6426F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC8521DFAE04F00F6426F /* ChatViewController.swift */; };
+		904FC8551DFAE06F00F6426F /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC8541DFAE06F00F6426F /* OverlayViewController.swift */; };
+		904FC8571DFAE0B200F6426F /* EndUserAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FC8561DFAE0B200F6426F /* EndUserAgreementViewController.swift */; };
+		904FC8591DFAE0D500F6426F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904FC8581DFAE0D500F6426F /* Main.storyboard */; };
+		90685EAD1DFAF90800A01BAF /* FacebookInviteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90685EAC1DFAF90800A01BAF /* FacebookInviteController.swift */; };
+		90F40E321DFB074A006C0781 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F40E311DFB074A006C0781 /* AdSupport.framework */; };
+		95AE2C2BC14BA5C74112A589 /* Pods_FlareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD03648C552D55E0A8937BA /* Pods_FlareUITests.framework */; };
+		A63CE7971DEA91D4008C5FEB /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63CE7961DEA91D4008C5FEB /* RecordButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A7ED8971D7F2E94005FF0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7ED87A1D7F2E94005FF0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7ED8811D7F2E94005FF0A8;
+			remoteInfo = Flare;
+		};
+		6A7ED8A21D7F2E94005FF0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7ED87A1D7F2E94005FF0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7ED8811D7F2E94005FF0A8;
+			remoteInfo = Flare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071010AADE24D7DACD9ABDC4 /* Pods-Flare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flare.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flare/Pods-Flare.release.xcconfig"; sourceTree = "<group>"; };
+		08033D5B1DB93B660092E45E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08D1BDDF1DA6A853007EF1A0 /* Flare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flare.entitlements; sourceTree = "<group>"; };
+		1C077AF3B95864CEF341C981 /* Pods_Flare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246276D91D85DB0C00D434F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		24B68D481D8184AB004EE49A /* FlareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlareViewController.swift; sourceTree = "<group>"; };
+		531D01CC1D89BF7600AA7D1C /* CameraViewControllerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewControllerUITests.swift; sourceTree = "<group>"; };
+		5354CF271D8467BE00D57347 /* FlareDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlareDetailViewController.swift; sourceTree = "<group>"; };
+		537EB5E61D870B3C00F3E4F6 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		537EB5E81D8710C500F3E4F6 /* FlarePhysicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlarePhysicsViewController.swift; sourceTree = "<group>"; };
+		537EB5EC1D87240C00F3E4F6 /* FlashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashViewController.swift; sourceTree = "<group>"; };
+		53C8D1001D80760B00E57400 /* flare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flare.swift; sourceTree = "<group>"; };
+		53C8D1021D80781100E57400 /* AnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
+		6A7ED8821D7F2E94005FF0A8 /* Flare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7ED8851D7F2E94005FF0A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A7ED8871D7F2E94005FF0A8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6A7ED88C1D7F2E94005FF0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A7ED88F1D7F2E94005FF0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A7ED8911D7F2E94005FF0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7ED8961D7F2E94005FF0A8 /* FlareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7ED89A1D7F2E94005FF0A8 /* FlareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareTests.swift; sourceTree = "<group>"; };
+		6A7ED89C1D7F2E94005FF0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7ED8A11D7F2E94005FF0A8 /* FlareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7ED8A51D7F2E94005FF0A8 /* ProfileViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerUITests.swift; sourceTree = "<group>"; };
+		6A7ED8A71D7F2E94005FF0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746DDF441D844570004A27A2 /* SendFlareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendFlareViewController.swift; sourceTree = "<group>"; };
+		74F405661D86EA5A00F0A6DC /* MapDisplayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDisplayController.swift; sourceTree = "<group>"; };
+		74F405681D86ECEB00F0A6DC /* FlareDisplayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlareDisplayController.swift; sourceTree = "<group>"; };
+		74F8AA581D8955E300AD655B /* CityMapperAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMapperAPI.swift; sourceTree = "<group>"; };
+		826E4E981D81CA6F00CA4493 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8273F3031D899D9100E62350 /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		8273F3051D899F1200E62350 /* facebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facebook.swift; sourceTree = "<group>"; };
+		82FF4C8E1D85C26E00B44AF7 /* Flare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flare-Bridging-Header.h"; sourceTree = "<group>"; };
+		82FF4C8F1D85C26E00B44AF7 /* UITextFieldLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldLimit.h; sourceTree = "<group>"; };
+		82FF4C901D85C26E00B44AF7 /* UITextFieldLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldLimit.m; sourceTree = "<group>"; };
+		8CF49AC8D149AC8424F23C4C /* Pods-Flare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flare/Pods-Flare.debug.xcconfig"; sourceTree = "<group>"; };
+		90194C341DFAE83800D22901 /* boostOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = boostOverlay.swift; sourceTree = "<group>"; };
+		904FC84C1DFADF0700F6426F /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		904FC84E1DFADF1200F6426F /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		904FC8501DFAE00000F6426F /* BoostFlareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoostFlareViewController.swift; sourceTree = "<group>"; };
+		904FC8521DFAE04F00F6426F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		904FC8541DFAE06F00F6426F /* OverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
+		904FC8561DFAE0B200F6426F /* EndUserAgreementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndUserAgreementViewController.swift; sourceTree = "<group>"; };
+		904FC8581DFAE0D500F6426F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		90685EAC1DFAF90800A01BAF /* FacebookInviteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookInviteController.swift; sourceTree = "<group>"; };
+		90F40E311DFB074A006C0781 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9468DB4A64BFEF5B46BA9417 /* Pods-FlareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlareUITests/Pods-FlareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B49188567C4D013DC7E3CA7 /* Pods-FlareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlareTests/Pods-FlareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A63CE7961DEA91D4008C5FEB /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		AE71BA334882FB87A15CE562 /* Pods_FlareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A48B4D7E5C123EFE716A4B /* Pods-FlareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlareTests/Pods-FlareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F56223919A06BBF6FEA40B04 /* Pods-FlareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlareUITests/Pods-FlareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD03648C552D55E0A8937BA /* Pods_FlareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A7ED87F1D7F2E94005FF0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F40E321DFB074A006C0781 /* AdSupport.framework in Frameworks */,
+				08EFE9CF341AC9A8593EF0B9 /* Pods_Flare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7ED8931D7F2E94005FF0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378C31308AD144F1C77A72A4 /* Pods_FlareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7ED89E1D7F2E94005FF0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AE2C2BC14BA5C74112A589 /* Pods_FlareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8610AB8FC603138453277A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F40E311DFB074A006C0781 /* AdSupport.framework */,
+				1C077AF3B95864CEF341C981 /* Pods_Flare.framework */,
+				AE71BA334882FB87A15CE562 /* Pods_FlareTests.framework */,
+				FDD03648C552D55E0A8937BA /* Pods_FlareUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		537EB5EA1D8717C200F3E4F6 /* Flare */ = {
+			isa = PBXGroup;
+			children = (
+				746DDF441D844570004A27A2 /* SendFlareViewController.swift */,
+				537EB5E81D8710C500F3E4F6 /* FlarePhysicsViewController.swift */,
+				537EB5E61D870B3C00F3E4F6 /* CameraViewController.swift */,
+				24B68D481D8184AB004EE49A /* FlareViewController.swift */,
+				537EB5EC1D87240C00F3E4F6 /* FlashViewController.swift */,
+			);
+			name = Flare;
+			sourceTree = "<group>";
+		};
+		537EB5EB1D871B0300F3E4F6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				826E4E981D81CA6F00CA4493 /* RootViewController.swift */,
+				904FC8561DFAE0B200F6426F /* EndUserAgreementViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		6A7ED8791D7F2E94005FF0A8 = {
+			isa = PBXGroup;
+			children = (
+				6A7ED8841D7F2E94005FF0A8 /* Flare */,
+				6A7ED8991D7F2E94005FF0A8 /* FlareTests */,
+				6A7ED8A41D7F2E94005FF0A8 /* FlareUITests */,
+				6A7ED8831D7F2E94005FF0A8 /* Products */,
+				74F569AC45CA15300FCACCF0 /* Pods */,
+				4F8610AB8FC603138453277A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7ED8831D7F2E94005FF0A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A7ED8821D7F2E94005FF0A8 /* Flare.app */,
+				6A7ED8961D7F2E94005FF0A8 /* FlareTests.xctest */,
+				6A7ED8A11D7F2E94005FF0A8 /* FlareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A7ED8841D7F2E94005FF0A8 /* Flare */ = {
+			isa = PBXGroup;
+			children = (
+				08D1BDDF1DA6A853007EF1A0 /* Flare.entitlements */,
+				8296B41D1D86BFC400F3B1A7 /* Lib */,
+				6A7ED8851D7F2E94005FF0A8 /* AppDelegate.swift */,
+				08033D5B1DB93B660092E45E /* GoogleService-Info.plist */,
+				8296B41C1D86BF8900F3B1A7 /* Controllers */,
+				904FC8581DFAE0D500F6426F /* Main.storyboard */,
+				6A7ED88C1D7F2E94005FF0A8 /* Assets.xcassets */,
+				6A7ED88E1D7F2E94005FF0A8 /* LaunchScreen.storyboard */,
+				6A7ED8911D7F2E94005FF0A8 /* Info.plist */,
+				8296B41E1D86BFD000F3B1A7 /* Models */,
+				74F8AA581D8955E300AD655B /* CityMapperAPI.swift */,
+			);
+			path = Flare;
+			sourceTree = "<group>";
+		};
+		6A7ED8991D7F2E94005FF0A8 /* FlareTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7ED89A1D7F2E94005FF0A8 /* FlareTests.swift */,
+				6A7ED89C1D7F2E94005FF0A8 /* Info.plist */,
+			);
+			path = FlareTests;
+			sourceTree = "<group>";
+		};
+		6A7ED8A41D7F2E94005FF0A8 /* FlareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7ED8A51D7F2E94005FF0A8 /* ProfileViewControllerUITests.swift */,
+				6A7ED8A71D7F2E94005FF0A8 /* Info.plist */,
+				531D01CC1D89BF7600AA7D1C /* CameraViewControllerUITests.swift */,
+			);
+			path = FlareUITests;
+			sourceTree = "<group>";
+		};
+		74F4056A1D87019800F0A6DC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				5354CF271D8467BE00D57347 /* FlareDetailViewController.swift */,
+				904FC8501DFAE00000F6426F /* BoostFlareViewController.swift */,
+				6A7ED8871D7F2E94005FF0A8 /* MapViewController.swift */,
+				74F405681D86ECEB00F0A6DC /* FlareDisplayController.swift */,
+				53C8D1021D80781100E57400 /* AnnotationViewController.swift */,
+				904FC8541DFAE06F00F6426F /* OverlayViewController.swift */,
+				74F405661D86EA5A00F0A6DC /* MapDisplayController.swift */,
+				904FC8521DFAE04F00F6426F /* ChatViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		74F569AC45CA15300FCACCF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF49AC8D149AC8424F23C4C /* Pods-Flare.debug.xcconfig */,
+				071010AADE24D7DACD9ABDC4 /* Pods-Flare.release.xcconfig */,
+				D7A48B4D7E5C123EFE716A4B /* Pods-FlareTests.debug.xcconfig */,
+				9B49188567C4D013DC7E3CA7 /* Pods-FlareTests.release.xcconfig */,
+				F56223919A06BBF6FEA40B04 /* Pods-FlareUITests.debug.xcconfig */,
+				9468DB4A64BFEF5B46BA9417 /* Pods-FlareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8273F3021D899D7400E62350 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				246276D91D85DB0C00D434F5 /* ProfileViewController.swift */,
+				90685EAC1DFAF90800A01BAF /* FacebookInviteController.swift */,
+				8273F3031D899D9100E62350 /* LogOutViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		8296B41C1D86BF8900F3B1A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				904FC84B1DFADEF400F6426F /* FriendsTable */,
+				537EB5EA1D8717C200F3E4F6 /* Flare */,
+				74F4056A1D87019800F0A6DC /* Map */,
+				8273F3021D899D7400E62350 /* Profile */,
+				537EB5EB1D871B0300F3E4F6 /* User */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8296B41D1D86BFC400F3B1A7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A63CE7961DEA91D4008C5FEB /* RecordButton.swift */,
+				82FF4C8F1D85C26E00B44AF7 /* UITextFieldLimit.h */,
+				82FF4C901D85C26E00B44AF7 /* UITextFieldLimit.m */,
+				82FF4C8E1D85C26E00B44AF7 /* Flare-Bridging-Header.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		8296B41E1D86BFD000F3B1A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53C8D1001D80760B00E57400 /* flare.swift */,
+				90194C341DFAE83800D22901 /* boostOverlay.swift */,
+				8273F3051D899F1200E62350 /* facebook.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		904FC84B1DFADEF400F6426F /* FriendsTable */ = {
+			isa = PBXGroup;
+			children = (
+				904FC84C1DFADF0700F6426F /* FriendsTableViewController.swift */,
+				904FC84E1DFADF1200F6426F /* FriendsTableViewCell.swift */,
+			);
+			name = FriendsTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7ED8811D7F2E94005FF0A8 /* Flare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7ED8AA1D7F2E94005FF0A8 /* Build configuration list for PBXNativeTarget "Flare" */;
+			buildPhases = (
+				5384FB5CF102A015F732C635 /* [CP] Check Pods Manifest.lock */,
+				6A7ED87E1D7F2E94005FF0A8 /* Sources */,
+				6A7ED87F1D7F2E94005FF0A8 /* Frameworks */,
+				6A7ED8801D7F2E94005FF0A8 /* Resources */,
+				B65706A02893B244F48CD2E5 /* [CP] Embed Pods Frameworks */,
+				0B882E35E889C73A58434E65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flare;
+			productName = Flare;
+			productReference = 6A7ED8821D7F2E94005FF0A8 /* Flare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A7ED8951D7F2E94005FF0A8 /* FlareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7ED8AD1D7F2E94005FF0A8 /* Build configuration list for PBXNativeTarget "FlareTests" */;
+			buildPhases = (
+				0BAE5FD29CCD38F240EFC544 /* [CP] Check Pods Manifest.lock */,
+				6A7ED8921D7F2E94005FF0A8 /* Sources */,
+				6A7ED8931D7F2E94005FF0A8 /* Frameworks */,
+				6A7ED8941D7F2E94005FF0A8 /* Resources */,
+				5ED52350C79EF2CAD3E02849 /* [CP] Embed Pods Frameworks */,
+				03FC727A9A17B95179E48EE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7ED8981D7F2E94005FF0A8 /* PBXTargetDependency */,
+			);
+			name = FlareTests;
+			productName = FlareTests;
+			productReference = 6A7ED8961D7F2E94005FF0A8 /* FlareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A7ED8A01D7F2E94005FF0A8 /* FlareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7ED8B01D7F2E94005FF0A8 /* Build configuration list for PBXNativeTarget "FlareUITests" */;
+			buildPhases = (
+				D2834523E9DCC59ECC71A495 /* [CP] Check Pods Manifest.lock */,
+				6A7ED89D1D7F2E94005FF0A8 /* Sources */,
+				6A7ED89E1D7F2E94005FF0A8 /* Frameworks */,
+				6A7ED89F1D7F2E94005FF0A8 /* Resources */,
+				BF4BFEBCB48866B879C9542E /* [CP] Copy Pods Resources */,
+				8562494B68CEA92A70932FBB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7ED8A31D7F2E94005FF0A8 /* PBXTargetDependency */,
+			);
+			name = FlareUITests;
+			productName = FlareUITests;
+			productReference = 6A7ED8A11D7F2E94005FF0A8 /* FlareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A7ED87A1D7F2E94005FF0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = appflare;
+				TargetAttributes = {
+					6A7ED8811D7F2E94005FF0A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HH6WY34454;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					6A7ED8951D7F2E94005FF0A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6A7ED8811D7F2E94005FF0A8;
+					};
+					6A7ED8A01D7F2E94005FF0A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6A7ED8811D7F2E94005FF0A8;
+					};
+				};
+			};
+			buildConfigurationList = 6A7ED87D1D7F2E94005FF0A8 /* Build configuration list for PBXProject "Flare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A7ED8791D7F2E94005FF0A8;
+			productRefGroup = 6A7ED8831D7F2E94005FF0A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7ED8811D7F2E94005FF0A8 /* Flare */,
+				6A7ED8951D7F2E94005FF0A8 /* FlareTests */,
+				6A7ED8A01D7F2E94005FF0A8 /* FlareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A7ED8801D7F2E94005FF0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7ED8901D7F2E94005FF0A8 /* LaunchScreen.storyboard in Resources */,
+				08033D5C1DB93B660092E45E /* GoogleService-Info.plist in Resources */,
+				6A7ED88D1D7F2E94005FF0A8 /* Assets.xcassets in Resources */,
+				904FC8591DFAE0D500F6426F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7ED8941D7F2E94005FF0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7ED89F1D7F2E94005FF0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03FC727A9A17B95179E48EE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlareTests/Pods-FlareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B882E35E889C73A58434E65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flare/Pods-Flare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BAE5FD29CCD38F240EFC544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5384FB5CF102A015F732C635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5ED52350C79EF2CAD3E02849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlareTests/Pods-FlareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8562494B68CEA92A70932FBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlareUITests/Pods-FlareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65706A02893B244F48CD2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flare/Pods-Flare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4BFEBCB48866B879C9542E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlareUITests/Pods-FlareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2834523E9DCC59ECC71A495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7ED87E1D7F2E94005FF0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C8D1031D80781100E57400 /* AnnotationViewController.swift in Sources */,
+				74F405691D86ECEB00F0A6DC /* FlareDisplayController.swift in Sources */,
+				6A7ED8881D7F2E94005FF0A8 /* MapViewController.swift in Sources */,
+				904FC84F1DFADF1200F6426F /* FriendsTableViewCell.swift in Sources */,
+				5354CF281D8467BE00D57347 /* FlareDetailViewController.swift in Sources */,
+				74F8AA591D8955E300AD655B /* CityMapperAPI.swift in Sources */,
+				90194C351DFAE83800D22901 /* boostOverlay.swift in Sources */,
+				746DDF451D844570004A27A2 /* SendFlareViewController.swift in Sources */,
+				6A7ED8861D7F2E94005FF0A8 /* AppDelegate.swift in Sources */,
+				90685EAD1DFAF90800A01BAF /* FacebookInviteController.swift in Sources */,
+				A63CE7971DEA91D4008C5FEB /* RecordButton.swift in Sources */,
+				8273F3061D899F1200E62350 /* facebook.swift in Sources */,
+				246276DA1D85DB0C00D434F5 /* ProfileViewController.swift in Sources */,
+				537EB5ED1D87240C00F3E4F6 /* FlashViewController.swift in Sources */,
+				74F405671D86EA5A00F0A6DC /* MapDisplayController.swift in Sources */,
+				904FC8571DFAE0B200F6426F /* EndUserAgreementViewController.swift in Sources */,
+				826E4E991D81CA6F00CA4493 /* RootViewController.swift in Sources */,
+				82FF4C911D85C26E00B44AF7 /* UITextFieldLimit.m in Sources */,
+				904FC8551DFAE06F00F6426F /* OverlayViewController.swift in Sources */,
+				904FC84D1DFADF0700F6426F /* FriendsTableViewController.swift in Sources */,
+				904FC8531DFAE04F00F6426F /* ChatViewController.swift in Sources */,
+				537EB5E71D870B3C00F3E4F6 /* CameraViewController.swift in Sources */,
+				53C8D1011D80760B00E57400 /* flare.swift in Sources */,
+				537EB5E91D8710C500F3E4F6 /* FlarePhysicsViewController.swift in Sources */,
+				8273F3041D899D9100E62350 /* LogOutViewController.swift in Sources */,
+				24B68D491D8184AB004EE49A /* FlareViewController.swift in Sources */,
+				904FC8511DFAE00000F6426F /* BoostFlareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7ED8921D7F2E94005FF0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7ED89B1D7F2E94005FF0A8 /* FlareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7ED89D1D7F2E94005FF0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7ED8A61D7F2E94005FF0A8 /* ProfileViewControllerUITests.swift in Sources */,
+				531D01CD1D89BF7600AA7D1C /* CameraViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A7ED8981D7F2E94005FF0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7ED8811D7F2E94005FF0A8 /* Flare */;
+			targetProxy = 6A7ED8971D7F2E94005FF0A8 /* PBXContainerItemProxy */;
+		};
+		6A7ED8A31D7F2E94005FF0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7ED8811D7F2E94005FF0A8 /* Flare */;
+			targetProxy = 6A7ED8A21D7F2E94005FF0A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A7ED88E1D7F2E94005FF0A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7ED88F1D7F2E94005FF0A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A7ED8A81D7F2E94005FF0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A7ED8A91D7F2E94005FF0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A7ED8AB1D7F2E94005FF0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF49AC8D149AC8424F23C4C /* Pods-Flare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_ENTITLEMENTS = Flare/Flare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HH6WY34454;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleParsingUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks\"",
+					"\"~/Documents/FacebookSDKs-iOS-4.15.1\"",
+				);
+				INFOPLIST_FILE = Flare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sluys.flame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flare/Flare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6A7ED8AC1D7F2E94005FF0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071010AADE24D7DACD9ABDC4 /* Pods-Flare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_ENTITLEMENTS = Flare/Flare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HH6WY34454;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleParsingUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks\"",
+					"\"~/Documents/FacebookSDKs-iOS-4.15.1\"",
+				);
+				INFOPLIST_FILE = Flare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sluys.flame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flare/Flare-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6A7ED8AE1D7F2E94005FF0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A48B4D7E5C123EFE716A4B /* Pods-FlareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appflare.FlareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flare.app/Flare";
+			};
+			name = Debug;
+		};
+		6A7ED8AF1D7F2E94005FF0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B49188567C4D013DC7E3CA7 /* Pods-FlareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appflare.FlareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flare.app/Flare";
+			};
+			name = Release;
+		};
+		6A7ED8B11D7F2E94005FF0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56223919A06BBF6FEA40B04 /* Pods-FlareUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FlareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appflare.FlareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Flare;
+			};
+			name = Debug;
+		};
+		6A7ED8B21D7F2E94005FF0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468DB4A64BFEF5B46BA9417 /* Pods-FlareUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FlareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appflare.FlareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Flare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A7ED87D1D7F2E94005FF0A8 /* Build configuration list for PBXProject "Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7ED8A81D7F2E94005FF0A8 /* Debug */,
+				6A7ED8A91D7F2E94005FF0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7ED8AA1D7F2E94005FF0A8 /* Build configuration list for PBXNativeTarget "Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7ED8AB1D7F2E94005FF0A8 /* Debug */,
+				6A7ED8AC1D7F2E94005FF0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7ED8AD1D7F2E94005FF0A8 /* Build configuration list for PBXNativeTarget "FlareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7ED8AE1D7F2E94005FF0A8 /* Debug */,
+				6A7ED8AF1D7F2E94005FF0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7ED8B01D7F2E94005FF0A8 /* Build configuration list for PBXNativeTarget "FlareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7ED8B11D7F2E94005FF0A8 /* Debug */,
+				6A7ED8B21D7F2E94005FF0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A7ED87A1D7F2E94005FF0A8 /* Project object */;
+}
